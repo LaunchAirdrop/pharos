@@ -6,6 +6,7 @@ const randomUseragent = require('random-useragent');
 const axios = require('axios');
 const prompt = require('prompt-sync')({ sigint: true });
 const CryptoJS = require("crypto-js");
+const path = require('path');
 
 const colors = {
   reset: '\x1b[0m',
